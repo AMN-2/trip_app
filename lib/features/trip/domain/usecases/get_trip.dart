@@ -1,3 +1,4 @@
+import 'package:trip_app/features/trip/domain/entities/trip.dart';
 import 'package:trip_app/features/trip/domain/repositories/trip_repository.dart';
 
 class GetTrip {
@@ -5,7 +6,7 @@ class GetTrip {
 
   GetTrip(this.repository);
 
-  Future<void> call() {
+  Future<List<Trip>> call() {
     return repository.getTrips();
   }
 }

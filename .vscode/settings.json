@@ -4,6 +4,7 @@
         "dartz",
         "datasource",
         "riverpod",
-        "Souces"
+        "Souces",
+        "usecases"
     ]
 }
